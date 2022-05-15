@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Aral Hekimoglu"
   avatar           : "Photo.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Doctoral Researcher in Autonomous Driving @ BMW Group"
   employer         :
   pubmed           : 
   googlescholar    : "http://yourfullgooglescholarurl.com"
@@ -101,7 +101,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/aralhekimoglu/"
+  linkedin         : "aralhekimoglu"
   orcid            : 
   pinterest        :
   soundcloud       :
@@ -208,15 +208,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _publications
   - scope:
       path: ""
@@ -226,21 +217,28 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _research
   - scope:
       path: ""
-      type: portfolio
+      type: research
     values:
       layout: single
       author_profile: true
       share: true
-      comment: true
-  # _talks
+  # _projects
   - scope:
       path: ""
-      type: talks
+      type: projects
     values:
-      layout: talk
+      layout: single
+      author_profile: true
+      share: true
+  # _cv
+  - scope:
+      path: ""
+      type: cv
+    values:
+      layout: single
       author_profile: true
       share: true
 
@@ -254,7 +252,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Berlin # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
