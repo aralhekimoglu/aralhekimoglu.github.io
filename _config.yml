@@ -189,7 +189,7 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-  researcg:
+  research:
     output: true
     permalink: /:collection/:path/
 
