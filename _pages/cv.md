@@ -15,6 +15,12 @@ Education
 * M.S. in Jekyll, GitHub University, 2014
 * Ph.D in Version Control Theory, GitHub University, 2018 (expected)
 
+Education
+======
+  <ul>{% for post in site.education %}
+    <p> {{ post.title }}, {{ post.university }} </p>
+  {% endfor %}</ul>
+
 Work experience
 ======
 * Summer 2015: Research Assistant
@@ -42,18 +48,3 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
