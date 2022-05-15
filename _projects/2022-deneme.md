@@ -1,6 +1,7 @@
 ---
 title: "Projects item number 1"
 excerpt: "Short description of asdf"
+venue: 'Test venue'
 collection: projects
 permalink: /projects/2022-deneme
 ---
