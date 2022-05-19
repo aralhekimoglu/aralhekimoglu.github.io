@@ -11,7 +11,7 @@ author_profile: true
   <h2 class="archive__item-title" itemprop="headline">
     {{ post.title }}
   </h2>
-  <b> {{ post.company }} </b> , {{ post.location }} <br>
+  <b> {{ post.company }} </b>, {{ post.location }} <br>
   [{{ post.dates }}]
 
   <p class="archive__item-excerpt" itemprop="description">
