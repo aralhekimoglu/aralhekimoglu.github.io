@@ -9,10 +9,9 @@ author_profile: true
 
 {% for post in site.industry reversed %}
   <h2 class="archive__item-title" itemprop="headline">
-    {{ post.title }}
+    {{ post.title }} &#9679; {{ post.dates }}
   </h2>
   <b> {{ post.company }} </b>, {{ post.location }} <br>
-  {{ post.dates }}
 
   <p class="archive__item-excerpt" itemprop="description">
     <p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
