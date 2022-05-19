@@ -27,8 +27,15 @@ author_profile: true
   
   <!-- citation and icon code -->
   <p>
-  {% if post.citation %}
+  {% if post.venue %}
     {{ post.citation }}
+  {% endif %}
+  {% if post.venue %}
+    {{ post.venue }} , {{ post.year }}
+  {% endif %}
+  <br>
+  {% if post.authors %}
+    {{ post.authors }}
   {% endif %}
   <br>
   {% if post.link %}
