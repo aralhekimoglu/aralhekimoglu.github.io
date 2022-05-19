@@ -9,10 +9,9 @@ author_profile: true
 
 {% for post in site.education reversed %}
   <h2 class="archive__item-title" itemprop="headline">
-    {{ post.title }}
+    {{ post.title }} [{{ post.dates }}]
   </h2>
   <b> {{ post.university }} </b>, {{ post.location }} <br>
-  {{ post.dates }}
   <p class="archive__item-excerpt" itemprop="description">
     <p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
   </p>
