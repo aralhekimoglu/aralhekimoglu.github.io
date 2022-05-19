@@ -8,5 +8,9 @@ author_profile: true
 {% include base_path %}
 
 {% for post in site.education reversed %}
-  <p> {{ post.title }}, {{ post.university }} </p>
+  <h2 class="archive__item-title" itemprop="headline">
+    {{ post.title }}
+  </h2>
+  <b> {{ post.university }} </b> , {{ post.location }}
+  [{{ post.dates }}]
 {% endfor %}

@@ -5,6 +5,7 @@ company: "Kuartis Technology"
 location: "Ankara"
 title: "Computer Vision Research Intern"
 dates: "Jun, 2019 - Sep, 2019"
+excerpt: "A"
 ---
 
 - Designed a new person re-identification model to improve performance of the model in-use by +16% by proposing a part-based generator network to generate more realistic looking pedestrian images.

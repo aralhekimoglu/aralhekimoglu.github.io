@@ -5,6 +5,7 @@ company: "Kuartis Technology"
 location: "Ankara"
 title: "Computer Vision and Machine Learning Engineer"
 dates: "May, 2020 - Mar, 2021"
+excerpt: "A"
 ---
 
 - Researched Active Learning methods for data-efficient model development. Researched method helped 2D Object Detection deep learning model achieve peak performance with 30% less training data.
