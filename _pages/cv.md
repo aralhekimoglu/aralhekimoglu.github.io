@@ -21,11 +21,13 @@ Education
     <p> {{ post.title }}, {{ post.university }} </p>
   {% endfor %}</ul>
 
-Work experience
+Work Experience
 ======
-  <ul>{% for post in site.industry %}
-    <p> {{ post.title }}, {{ post.company }} </p>
-  {% endfor %}</ul>
+  <ul>
+  {% for post in site.industry %}
+    <p> - {{ post.title }}, {{ post.company }} </p>
+  {% endfor %}
+  </ul>
 
 Work experience
 ======
