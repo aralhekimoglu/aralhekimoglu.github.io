@@ -19,8 +19,8 @@ author_profile: true
   <p>
   {% if post.citation %}
     {{ post.citation }}
+    <br>
   {% endif %}
-  <br>
   {% if post.venue %}
     {{ post.venue }}, {{ post.year }}
   {% endif %}
