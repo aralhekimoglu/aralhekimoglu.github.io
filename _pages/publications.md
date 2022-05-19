@@ -15,8 +15,6 @@ author_profile: true
   <h2 class="archive__item-title" itemprop="headline">
     {{ post.title }}
   </h2>
-  <h3> Abstract </h3>
-  <p>{{ post.abstract }}</p>
   <!-- citation and icon code -->
   <p>
   {% if post.citation %}

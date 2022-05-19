@@ -9,5 +9,4 @@ paperurl: 'http://ieeexplore.ieee.org'
 authors: 'A. Hekimoglu, M. Schmidt, M. Alvaro, G. Rigoll'
 link: 'https://doi.org/'
 code: 'http://ieeexplore.ieee.org'
-abstract: 'Processing camera'
 ---
