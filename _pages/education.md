@@ -13,4 +13,7 @@ author_profile: true
   </h2>
   <b> {{ post.university }} </b>, {{ post.location }} <br>
   {{ post.dates }}
+  <p class="archive__item-excerpt" itemprop="description">
+    <p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+  </p>
 {% endfor %}
