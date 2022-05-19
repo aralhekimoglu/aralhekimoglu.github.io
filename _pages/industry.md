@@ -15,10 +15,6 @@ author_profile: true
   [{{ post.dates }}]
 
   <p class="archive__item-excerpt" itemprop="description">
-    <p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
-      <strong>
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a>
-      </strong>
-    </p>
+    <p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
   </p>
 {% endfor %}
