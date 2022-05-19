@@ -23,12 +23,12 @@ author_profile: true
   {% endif %}
   {% if post.venue %}
     {{ post.venue }}, {{ post.year }}
+    <br>
   {% endif %}
-  <br>
   {% if post.authors %}
     {{ post.authors }}
+    <br>
   {% endif %}
-  <br>
   {% if post.link %}
     <a href="{{ post.link }}"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a>
   {% endif %}
