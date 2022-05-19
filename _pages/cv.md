@@ -9,19 +9,27 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+Publications
 ======
   <ul>
-  {% for post in site.education %}
-    <p> {{ post.title }}, {{ post.university }} </p>
+  {% for post in site.publications %}
+    {% include archive-single-cv.html %}
   {% endfor %}
   </ul>
-
+  
 Work Experience
 ======
   <ul>
   {% for post in site.industry %}
     <p> - {{ post.title }}, {{ post.company }} </p>
+  {% endfor %}
+  </ul>
+  
+Education
+======
+  <ul>
+  {% for post in site.education %}
+    <p> {{ post.title }}, {{ post.university }} </p>
   {% endfor %}
   </ul>
 
@@ -33,12 +41,3 @@ Skills
   * Sub-skill 2.2
   * Sub-skill 2.3
 * Skill 3
-
-Publications
-======
-  <ul>
-  {% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}
-  </ul>
-  
