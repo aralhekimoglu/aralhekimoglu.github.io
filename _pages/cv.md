@@ -23,6 +23,12 @@ Education
 
 Work experience
 ======
+  <ul>{% for post in site.industry %}
+    <p> {{ post.title }}, {{ post.company }} </p>
+  {% endfor %}</ul>
+
+Work experience
+======
 * Summer 2015: Research Assistant
   * Github University
   * Duties included: Tagging issues
