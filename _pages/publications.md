@@ -27,9 +27,10 @@ author_profile: true
   
   <!-- citation and icon code -->
   <p>
-  {% if post.venue %}
+  {% if post.citation %}
     {{ post.citation }}
   {% endif %}
+  <br>
   {% if post.venue %}
     {{ post.venue }} , {{ post.year }}
   {% endif %}
