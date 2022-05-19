@@ -12,7 +12,7 @@ author_profile: true
     {{ post.title }}
   </h2>
   <b> {{ post.company }} </b>, {{ post.location }} <br>
-  [{{ post.dates }}]
+  {{ post.dates }}
 
   <p class="archive__item-excerpt" itemprop="description">
     <p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
