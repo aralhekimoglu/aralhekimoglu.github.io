@@ -9,7 +9,8 @@ author_profile: true
 
 {% for post in site.industry reversed %}
   <h2 class="archive__item-title" itemprop="headline">
-    [{{ post.dates }}] {{ post.title }}
+    {{ post.title }}
   </h2>
   <b> {{ post.company }} </b> , {{ post.location }}
+  [{{ post.dates }}]
 {% endfor %}
