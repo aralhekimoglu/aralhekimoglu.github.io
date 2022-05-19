@@ -16,13 +16,8 @@ author_profile: true
     {{ post.title }}
   </h2>
   {% if post.abstract %}
-    <details><summary>Abstract</summary>
-    <blockquote>
-    <p>
-    {{ post.abstract }}
-    </p>
-    </blockquote>
-    </details>
+    <h3> Abstract </h3>
+    <p>{{ post.abstract }}</p>
   {% endif %}
   
   <!-- citation and icon code -->
@@ -32,7 +27,7 @@ author_profile: true
   {% endif %}
   <br>
   {% if post.venue %}
-    {{ post.venue }} , {{ post.year }}
+    {{ post.venue }}, {{ post.year }}
   {% endif %}
   <br>
   {% if post.authors %}
