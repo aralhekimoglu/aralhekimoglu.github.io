@@ -6,9 +6,9 @@ location: "Ankara"
 title: "Computer Vision Research Intern"
 dates: "Jun, 2019 - Sep, 2019"
 excerpt: "
-- A
-- B
-- C
+- Aral \n
+- Barl \n
+- Cal \n
 "
 ---
 
