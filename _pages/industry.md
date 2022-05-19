@@ -11,5 +11,5 @@ author_profile: true
   <h2 class="archive__item-title" itemprop="headline">
     [{{ post.dates }}] {{ post.title }}
   </h2>
-  {{ post.company }}, {{ post.location }}
+  <b> {{ post.company }} </b> , {{ post.location }}
 {% endfor %}
