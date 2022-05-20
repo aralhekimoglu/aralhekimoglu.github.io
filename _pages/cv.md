@@ -39,5 +39,5 @@ Education
 
 Skills
 ======
-*Coding Languages:* Python, C++, MySQL, HTML, CSS, JavaScript
-*Frameworks and Libraries:* PyTorch, TensorFlow, OpenCV, TensorRT, Keras, scikit-learn
+* Coding Languages:* Python, C++, MySQL, HTML, CSS, JavaScript
+* Frameworks and Libraries:* PyTorch, TensorFlow, OpenCV, TensorRT, Keras, scikit-learn
