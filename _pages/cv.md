@@ -24,7 +24,7 @@ Publications
 Work Experience
 ======
   <ul>
-  {% for post in site.industry %}
+  {% for post in site.industry reversed %}
     <p> * {{ post.title }}, {{ post.company }} </p>
   {% endfor %}
   </ul>
@@ -32,7 +32,7 @@ Work Experience
 Education
 ======
   <ul>
-  {% for post in site.education %}
+  {% for post in site.education reversed %}
     <p> {{ post.title }}, {{ post.university }} </p>
   {% endfor %}
   </ul>
