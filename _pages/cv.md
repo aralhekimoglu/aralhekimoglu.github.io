@@ -25,7 +25,7 @@ Work Experience
 ======
   <ul>
   {% for post in site.industry reversed %}
-    <p> * {{ post.title }}, {{ post.company }} </p>
+    <li> {{ post.title }}, {{ post.company }} </li>
   {% endfor %}
   </ul>
 
