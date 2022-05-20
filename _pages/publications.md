@@ -22,7 +22,7 @@ author_profile: true
     <br>
   {% endif %}
   {% if post.venue %}
-    <b> {{ post.venue }}, {{ post.year }} </b>
+    Published in <em> {{ post.venue }} </em>, {{ post.year }}
     <br>
   {% endif %}
   {% if post.authors %}
