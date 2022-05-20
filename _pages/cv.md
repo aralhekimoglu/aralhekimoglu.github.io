@@ -33,11 +33,11 @@ Education
 ======
   <ul>
   {% for post in site.education reversed %}
-    <p> {{ post.title }}, {{ post.university }} </p>
+    <li> {{ post.title }}, {{ post.university }} </li>
   {% endfor %}
   </ul>
 
 Skills
 ======
-* Coding Languages:* Python, C++, MySQL, HTML, CSS, JavaScript
-* Frameworks and Libraries:* PyTorch, TensorFlow, OpenCV, TensorRT, Keras, scikit-learn
+* *Coding Languages:* Python, C++, MySQL, HTML, CSS, JavaScript
+* *Frameworks and Libraries:* PyTorch, TensorFlow, OpenCV, TensorRT, Keras, scikit-learn
