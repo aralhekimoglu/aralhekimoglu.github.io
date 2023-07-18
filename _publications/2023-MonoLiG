@@ -1,0 +1,10 @@
+---
+title: "Monocular 3D Object Detection with LiDAR Guided Semi Supervised Active Learning"
+collection: publications
+permalink: /publication/2023-MonoLiG
+date: 2023-07-17
+venue: 'arXiv'
+year: '2023'
+paperurl: 'https://arxiv.org/abs/2307.08415'
+authors: 'A. Hekimoglu, M. Schmidt, A. Marcos-Ramiro'
+---
