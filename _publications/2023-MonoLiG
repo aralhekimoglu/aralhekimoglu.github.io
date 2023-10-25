@@ -3,7 +3,7 @@ title: "Monocular 3D Object Detection with LiDAR Guided Semi Supervised Active L
 collection: publications
 permalink: /publication/2023-MonoLiG
 date: 2023-07-17
-venue: 'arXiv'
+venue: 'Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)'
 year: '2023'
 paperurl: '/files/2307.08415.pdf'
 authors: 'A. Hekimoglu, M. Schmidt, A. Marcos-Ramiro'
