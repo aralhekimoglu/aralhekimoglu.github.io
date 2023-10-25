@@ -3,9 +3,9 @@ title: "Multi-Task Consistency for Active Learning"
 collection: publications
 permalink: /publication/2023-BoxMask
 date: 2023-06-21
-venue: 'arXiv'
+venue: 'Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops'
 year: '2023'
 paperurl: '/files/2306.12398.pdf'
 authors: 'A. Hekimoglu, P. Friedrich, W. Zimmer, M. Schmidt, A. Marcos-Ramiro, A. Knoll'
-link: 'https://arxiv.org/abs/2306.12398'
+link: 'https://openaccess.thecvf.com/content/ICCV2023W/VCL/papers/Hekimoglu_Multi-Task_Consistency_for_Active_Learning_ICCVW_2023_paper.pdf'
 ---
